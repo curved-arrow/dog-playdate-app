@@ -1,0 +1,188 @@
+/*Generic selectors*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+/*Tag selectors */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* heading */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* has to be big and bold so people know what our product is about! */
+
+/* ID selectors */
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #FFF;
+}
+.uncolored-section {
+  background-color: #FFF;
+}
+
+/* title */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* iPhone Puppy */
+#iphone_puppy {
+  transform: rotate(25deg);
+  padding-top: 90px;
+  width: 20%;
+  position: absolute;
+  right: 22%;
+  /*transform: skewY(20deg);
+  transform: scaleY(1.5)
+  I'm assuming same for x axis*/
+}
+
+#features {
+  position: relative;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+/* Pricing section */
+#pricing {
+  padding: 7% 15%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing-column {
+  padding: 3% 2%;
+}
+
+#footer {
+}
+
+#Copyright {
+  padding: 2%;
+}
+/* class selctors */
+
+/* NAVIGATION BAR */
+
+.navbar {
+  padding: 0 0 .5rem;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0 7px;
+  color: white;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Cert Statements */
+.cert_statements_h {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.cert_statements_p {
+  color: #8f8f8f;
+}
+
+.cert_statements_icon {
+  color: #ef8172;
+}
+
+.cert_statements_icon:hover {
+  color: #8E0505;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  color: #FFF;
+}
+
+/* h2 testimonal */
+.testimonal-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*
+.carousel-inner {
+  background-color: #ef8172;
+
+  margin-bottom: 20px;
+}
+*/
+.carousel-item {
+ 7% 15%;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 70%;
+  margin: 20px;
+}
+
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  #iphone_puppy {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+  #testimonials {
+    font-size: 2rem;
+  }
+}
